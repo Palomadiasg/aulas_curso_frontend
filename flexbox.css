@@ -1,0 +1,50 @@
+/*CSS - Flexbox, Grid Layout e */
+
+body {
+margin: 0;
+font-family: sans-serif;
+}
+
+header, footer {
+background-color: black;
+color: white;
+text-align: center;
+padding: 1rem;
+}
+/*
+
+.container {
+padding: 1rem;
+
+} */
+.card {
+background-color: pink;
+padding: 1rem;
+border: 1px solid wheat;
+margin: 0.5rem;
+width: 200px;
+
+}
+
+/* Flexbox 
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+
+} */
+/* grid layout */
+
+.container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 1rem;
+}
+
+.incio {
+
+grid-column-start: 2;
+
+}
